@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birthday Wish for My Love</title>
+    <title>Birthday Wish for My Big Bro</title>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
@@ -12,6 +12,13 @@
    
 </head>
 <body>
+    <audio id="bgMusic" src="The-Weeknd-Drive-(CoolXclusive.com).mp3" loop></audio>
+    <script>
+      document.addEventListener('click', function() {
+        var audio = document.getElementById('bgMusic');
+        audio.play();
+      }, { once: true });
+    </script>
     <div id="particles-js"></div>
     <div class="floating-hearts" id="floatingHearts"></div>
     <div class="petals" id="petalsContainer"></div>
